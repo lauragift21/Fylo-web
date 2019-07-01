@@ -11,4 +11,77 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10rem;
+}
+
+.content {
+  color: #fff;
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.sign-up {
+  margin-top: -5em;
+  button {
+    background: hsl(248, 32%, 49%);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 29rem;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    box-shadow:  0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+    .font-800 {
+      font-weight: 800;
+    }
+    .font-100 {
+      font-weight: 100;
+    }
+  }
+  .form {
+    background: #fff;
+    margin-top: 1em; 
+    padding: 3em;
+    border-radius: 5px;
+    box-shadow:  0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+    input {
+      border: 1px solid #efefef;
+      border-radius: 5px;
+      display: block;
+      padding: 1rem;
+      width: 20rem;
+      outline: none;
+    }
+    input:nth-child(n+2) {
+      margin-top: 30px;
+    }
+    input::placeholder {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    input:nth-child(n+5) {
+      background: #35cc8a;
+      color: #fff;
+      font-size: 16px;
+      width: 22.5rem;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px #44b180;
+    }
+    p {
+      font-size: 10px;
+      text-align: center;
+        font-weight: 100;
+      color: #cdcad2;
+      a {
+        text-decoration: none;
+        color: #e69296;
+        font-weight: 900;
+      }
+    }
+  }
 }

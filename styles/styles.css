@@ -16,5 +16,107 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 10rem;
+}
+
+.content {
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+}
+
+.sign-up {
+  margin-top: -5em;
+}
+
+.sign-up button {
+  background: #6055a5;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 29rem;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+          box-shadow: 0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+}
+
+.sign-up button .font-800 {
+  font-weight: 800;
+}
+
+.sign-up button .font-100 {
+  font-weight: 100;
+}
+
+.sign-up .form {
+  background: #fff;
+  margin-top: 1em;
+  padding: 3em;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+          box-shadow: 0px 6px 5px 0px rgba(97, 90, 97, 0.69);
+}
+
+.sign-up .form input {
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  display: block;
+  padding: 1rem;
+  width: 20rem;
+  outline: none;
+}
+
+.sign-up .form input:nth-child(n+2) {
+  margin-top: 30px;
+}
+
+.sign-up .form input::-webkit-input-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sign-up .form input:-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sign-up .form input::-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sign-up .form input::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sign-up .form input:nth-child(n+5) {
+  background: #35cc8a;
+  color: #fff;
+  font-size: 16px;
+  width: 22.5rem;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0 4px #44b180;
+          box-shadow: 0 4px #44b180;
+}
+
+.sign-up .form p {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 100;
+  color: #cdcad2;
+}
+
+.sign-up .form p a {
+  text-decoration: none;
+  color: #e69296;
+  font-weight: 900;
 }
 /*# sourceMappingURL=styles.css.map */
