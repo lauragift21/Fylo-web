@@ -85,3 +85,27 @@ body {
     }
   }
 }
+@media only screen and (max-width: 450px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+  .content {
+    text-align: center;
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
+  .sign-up {
+    margin: 2rem;
+    .btn {
+      text-align: center;
+      button {
+        width: 19rem;
+        text-align: center;
+      }
+    }
+  }
+}

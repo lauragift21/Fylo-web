@@ -119,4 +119,34 @@ body {
   color: #e69296;
   font-weight: 900;
 }
+
+@media only screen and (max-width: 450px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 2em;
+  }
+  .content {
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .sign-up {
+    margin: 2rem;
+  }
+  .sign-up .btn {
+    text-align: center;
+  }
+  .sign-up .btn button {
+    width: 19rem;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
